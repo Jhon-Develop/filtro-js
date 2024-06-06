@@ -1,0 +1,86 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "username": "Jhon Doe",
+            "email": "jhon@admin.com",
+            "password": "123456789",
+            "birthday": "2004-01-04",
+            "role_id": 1
+        },
+        {
+            "id": "9a9e",
+            "username": "1Asprilla1",
+            "email": "asprillajhon73@gmail.com",
+            "birthday": "2000-07-13",
+            "password": "123456789",
+            "role_id": 2
+        }
+    ],
+    "flights": [
+        {
+            "id": "2",
+            "number": "NY-LA-001",
+            "origin": "New York",
+            "destination": "Los Angeles",
+            "departureTime": "2024-06-15T08:00:00",
+            "arrivalTime": "2024-06-15T11:30:00",
+            "capacity": 150
+        },
+        {
+            "id": "3",
+            "number": "LON-PAR-002",
+            "origin": "London",
+            "destination": "Paris",
+            "departureTime": "2024-06-16T10:00:00",
+            "arrivalTime": "2024-06-16T12:30:00",
+            "capacity": 100
+        },
+        {
+            "id": "4",
+            "number": "TOK-SYD-003",
+            "origin": "Tokyo",
+            "destination": "Sydney",
+            "departureTime": "2024-06-17T14:00:00",
+            "arrivalTime": "2024-06-17T21:00:00",
+            "capacity": 200
+        },
+        {
+            "id": "5",
+            "number": "MAD-ROM-004",
+            "origin": "Madrid",
+            "destination": "Rome",
+            "departureTime": "2024-06-18T09:30:00",
+            "arrivalTime": "2024-06-18T12:00:00",
+            "capacity": 120
+        },
+        {
+            "id": "6",
+            "number": "CPT-NBO-005",
+            "origin": "Cape Town",
+            "destination": "Nairobi",
+            "departureTime": "2024-06-19T07:45:00",
+            "arrivalTime": "2024-06-19T11:15:00",
+            "capacity": 90
+        }
+    ],
+    "reservations": [
+        {
+            "id": "7f40",
+            "flightId": "3",
+            "user_id": "1",
+            "reservationDate": "2024-08-08",
+            "userId": "1"
+        }
+    ],
+    "roles": [
+        {
+            "id": "1",
+            "name": "admin"
+        },
+        {
+            "id": "2",
+            "name": "visitante"
+        }
+    ]
+}
